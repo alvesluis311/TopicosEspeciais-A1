@@ -2,6 +2,7 @@
 
 Este é um projeto desenvolvido com **Spring Boot**, **Java 21**, **Gradle 8.13** e **PostgreSQL**, totalmente configurado para rodar com Docker. Nenhuma instalação local de banco de dados ou dependências Java é necessária para executar.
 
+**Alunos:** Hítalo Aguiar Borges e Luis Felipe Barros Alves 
 ---
 
 ## 🚀 Como executar o projeto
