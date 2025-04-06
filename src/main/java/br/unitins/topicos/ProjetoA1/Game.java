@@ -49,15 +49,17 @@ public class Game {
         this.preco = gameDTO.preco();
         this.plataforma = gameDTO.plataforma();
         this.dataLancamento = gameDTO.dataLancamento();
+        this.developer = developer;
     }
 
-    public void setDados(GameDTO gameDTO) {
+    public void setDados(GameDTO gameDTO, Developer developer) {
 
         this.nome = gameDTO.nome();
         this.genero = gameDTO.genero();
         this.preco = gameDTO.preco();
         this.plataforma = gameDTO.plataforma();
         this.dataLancamento = gameDTO.dataLancamento();
+        this.developer = developer;
     }
 
     public Long getId() {
@@ -104,4 +106,11 @@ public class Game {
         this.dataLancamento = dataLancamento;
     }
 
+    public Developer getDeveloper() {
+        return developer;
+    }
+
+    public void setDeveloper(Developer developer) {
+        this.developer = developer;
+    }
 }

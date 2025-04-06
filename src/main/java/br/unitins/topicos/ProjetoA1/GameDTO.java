@@ -7,6 +7,7 @@ public record GameDTO(
     String genero,
     Double preco,
     String plataforma,
+    Long idDeveloper,
     LocalDate dataLancamento
 ) {
     
