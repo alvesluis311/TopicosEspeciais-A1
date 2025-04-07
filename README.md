@@ -19,7 +19,7 @@ Este é um projeto desenvolvido com **Spring Boot**, **Java 21**, **Gradle 8.13*
 1. Clone este repositório:
 
     ```bash
-    git clone https://github.com/HitaloAguiar/ProjetoA1-TopicosEspeciais.git
+    git clone https://github.com/alvesluis311/TopicosEspeciais-A1.git
     cd ProjetoA1-TopicosEspeciais
     ```
 
